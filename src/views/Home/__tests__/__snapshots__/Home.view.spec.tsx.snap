@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HomeView should render without crashing 1`] = `
+<div
+  class="container"
+>
+  <h1>
+    Compass Surveys
+  </h1>
+  <div
+    class="justify-content-md-center row"
+  >
+    <div
+      class="spinner-border"
+    />
+  </div>
+</div>
+`;
