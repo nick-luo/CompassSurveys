@@ -14,11 +14,11 @@ export const SurveyQuestion: React.FC<SurveyQuestionProps> = (props) => {
       <Card.Body>
         <Card.Title>{question.title}</Card.Title>
         <Card.Subtitle className="mb-2 text-muted">{question.subTitle}</Card.Subtitle>
-        <Card.Text>
-          <Form.Group>
+        <Card.Text as="div">
             {question.options && question.options.map((value, index) => {
               return (
                 <Form.Check
+                  key={index}
                   type='radio'
                   id={`${question.id}-${value.id}`}
                   name={question.id}
@@ -26,7 +26,6 @@ export const SurveyQuestion: React.FC<SurveyQuestionProps> = (props) => {
                 />
               )
             })}
-          </Form.Group>
         </Card.Text>
       </Card.Body>
     </Card>

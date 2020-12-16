@@ -43,6 +43,7 @@ export const HomeView: React.FC = () => {
               variant="primary"
               onClick={e => handleClick((e.target as HTMLInputElement).value)}
               block
+              data-testid={`button-${value.id}`}
             >
               {value.name}
             </Button>

@@ -52,6 +52,7 @@ export const SurveyView: React.FC = () => {
                 variant="primary"
                 className="mr-1"
                 onClick={handleBackClick}
+                data-testid="btnBack"
               >
                 Back
               </Button>
