@@ -31,7 +31,7 @@
     "@typescript-eslint/eslint-plugin": "^2.15.0",
     "@typescript-eslint/parser": "^2.15.0",
     "eslint": "^7.15.0",
-    "eslint-config-react-app": "^4.0.1",
+    "eslint-config-react-app": "^6.0.0",
     "eslint-plugin-flowtype": "^2.0.0",
     "eslint-plugin-import": "^2.14.0",
     "eslint-plugin-jsx-a11y": "^6.2.1",
