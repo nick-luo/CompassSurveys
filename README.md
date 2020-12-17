@@ -12,5 +12,5 @@ CompassSurveys.FrontEnd
 - Open the project in Visual Studio Code
 - Run 'yarn install'
 - Run 'yarn server' (starts up JSON server to provide mock API responses)
-- Run 'yarn start'
+- Open up a new terminal and run 'yarn start'
 - To run unit tests, run 'yarn test'
