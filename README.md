@@ -1,4 +1,4 @@
-# CompassSurveys
+# Compass Surveys
 
 This code test contains the following:
 
